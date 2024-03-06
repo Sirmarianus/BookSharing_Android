@@ -1,0 +1,24 @@
+Taskunie:
+
+	opowiastka jak to widzimy / co potrzeba nam zrobić / burza mózgów / 3 epiki -> android, iPhone, database / co do czego potrzeba / jak ze sobą gada / jaki tech stack
+	
+	- high-level podział kto co robi -> android / iPhone / database
+	czy zaczynamy od razu wszystkie 3 rzeczy czy np. bez jednej
+
+	- toolsy ->
+			android -> android studio / Java (ewentualnie kotlin dla dzikusów)
+			iPhone -> xCode / Swift
+			database -> java + spring
+			GitHub 
+
+Git
+	- Przemyśleć jak to zrobić (ja bym widział 3 główne branche / 3 mastery na każdy epik)
+	- Zestawienie repo gita
+	
+
+Baza danych
+	- Jakoś dodać friendsów
+	- Czy brakuje jakichś danych (głównie pewnie w booksach)
+	- W czym piszemy serwer do bazy danych (proponuję java/spring, bo java już będzie na androida, żeby nie dodawać kolejnego języka w projekcie, ale mozliwości jest dużo)
+	- Wstępnie rozpisanie API -> jakie zapytania potrzebujemy
+	- Ogarnąć renting serwera (jakieś tanie coś) czy stawiamy serwer lokalnie?

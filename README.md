@@ -1,7 +1,9 @@
 # BookSharing
 
 ## Database
-![database](stuff/database.jpg)
+<p align="center">
+  <img src="stuff/database.jpg" alt="Database">
+</p>
 
 ## Auth
 void login (string email, string password) <br>

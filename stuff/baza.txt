@@ -1,0 +1,21 @@
+// Use DBML to define your database structure
+// Docs: https://dbml.dbdiagram.io/docs
+
+Table users {
+  id integer [primary key]
+  email varchar
+  username varchar
+  password_hash varchar
+}
+
+Table books {
+  id integer [primary key]
+  title varchar
+  author varchar
+  owner_user_id integer
+  holder_user_id integer
+  status enum
+}
+
+Ref: books.owner_user_id > users.id // many-to-one
+Ref: books.holder_user_id > users.id
